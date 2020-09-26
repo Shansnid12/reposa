@@ -39,8 +39,7 @@ public class VotingBox extends SuperKarel {
 			if(frontIsClear()) {
 				move();
 			}
-		}
-	
+		}	
 	
 	private void skipNext() {
 		move();
@@ -77,6 +76,5 @@ public class VotingBox extends SuperKarel {
 			move();	
 		}
 	}
-
 }
 
