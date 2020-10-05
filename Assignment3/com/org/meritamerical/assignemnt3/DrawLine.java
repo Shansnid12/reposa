@@ -7,14 +7,14 @@ import java.awt.event.*;
 import acm.graphics.*;
 import javax.swing.*;
 
-public class DrwaLine extends GraphicsProgram {
+public class DrawLine extends GraphicsProgram {
 //This creates a line from the user start and end.
 	public void run() {
 		addMouseListeners();
 		addMouseMothionListeners();
 		JFrame frame = new JFrame("Rubber Lines");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().add(new DrwaLine());
+		frame.getContentPane().add(new DrawLine());
 		frame.pack();
 		frame.setVisible(true);
 
